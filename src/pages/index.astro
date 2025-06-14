@@ -369,22 +369,21 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
 		<div class="subtitle" id="subtitle"></div>
-		<script type="module">
-			fetch('/lines.txt')
-			.then(res => res.text())
-			.then(text => {
-				const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-				const subtitle = lines[Math.floor(Math.random() * lines.length)];
-				document.getElementById('subtitle').textContent = subtitle;
-			});
-		</script>
+        <script type="module">
+            fetch('/lines.txt')
+            .then(res => res.text())
+            .then(text => {
+                const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                const subtitle = lines[Math.floor(Math.random() * lines.length)];
+                document.getElementById('subtitle').textContent = subtitle;
+            });
+        </script>
         <h1>uwu systems</h1>
-        <p class="description">
-			ChromeOS? More like 1984OS.<br>
-			i don't think I have to explain why censorship is bad.<br>
-			uwu systems, the only subsidiary of GAGG Labs.<br>
-			gagg helps you bypass the censorship of your school computer,<br>
-			uwu systems is the thing that makes it possible.
+            ChromeOS? More like 1984OS.<br>
+            i don't think I have to explain why censorship is bad.<br>
+            uwu systems :)<br>
+            gagg helps you bypass the censorship of your school computer,<br>
+            uwu systems is the thing that makes it possible.
         </p>
         <a href="#projects" class="cta-button">Explore Our Projects</a>
     </section>
@@ -414,8 +413,8 @@
 						you to use your school computer as you wish.
                     </p>
                     <div class="project-links">
-                        <a href="#" class="project-link">GitHub →</a>
-                        <a href="#" class="project-link">Documentation →</a>
+                        <a href="#" class="project-link">Coming Soon!</a>
+                        <a href="https://tally.so/r/mDEg7j" class="project-link">Apply to be a tester →</a>
                     </div>
                 </div>
 
@@ -428,8 +427,7 @@
 						if you don't understand what this is, ok. good to know 👍
                     </p>
                     <div class="project-links">
-                        <a href="#" class="project-link">GitHub →</a>
-                        <a href="#" class="project-link">Try Beta →</a>
+                        <a href="https://github.com/uwusystem/quiltwoven" class="project-link">GitHub →</a>
                     </div>
                 </div>
 
@@ -437,9 +435,8 @@
                     <div class="project-status inactive">In Development</div>
                     <h3>goob</h3>
                     <p>
-						goob!
-						uwu systems' silliest project yet.
-						essentially, configuration.						
+						goob!<br>
+                        control pretty much everything on your chromebook with this <strong>insanely </strong>powerful tool.<br>
                     </p>
                     <div class="project-links">
                         <a href="#" class="project-link">Coming Soon</a>
@@ -448,14 +445,13 @@
 
                 <div class="project-card">
                     <div class="project-status">Active</div>
-                    <h3>Project Delta</h3>
+                    <h3>oniichan</h3>
                     <p>
-                        A comprehensive library of utilities and components that accelerate 
-                        development and ensure consistency across all our projects.
+                        a website that clones G.A.G.G. and puts it on netlify.<br>
+                        yes, it's a proxy.
                     </p>
                     <div class="project-links">
                         <a href="#" class="project-link">GitHub →</a>
-                        <a href="#" class="project-link">NPM →</a>
                     </div>
                 </div>
             </div>
@@ -486,12 +482,9 @@
     <footer id="contact">
         <div class="footer-content">
             <div class="footer-links">
-                <div class="footer-content">
-                    <div class="footer-links">
-                        <a href="https://github.com/uwusystem"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-solid fa-blender-phone"></i></a>
-                    </div>
-                    <div class="footer-bottom">
+                <a href="https://github.com/uwusystem"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.npmjs.com/org/uwusystem"><i class="fa-brands fa-npm"></i></a>
+                <a href="uwu.ooooooooooooooooooooooooooo.ooo"><i class="fa-brands fa-bluesky"></i></a>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 Uwu Systems. All rights reserved.</p>
